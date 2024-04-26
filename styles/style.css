@@ -1,0 +1,29 @@
+h1{font-family: 'Times New Roman', Times, serif;
+   align-items: center;
+   letter-spacing: 2px;
+   text-transform: capitalize;
+   font-size: 50px;
+
+}
+
+h2 {font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #006EB6;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.content {
+    font-size: 20px;
+    align-items: left;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 600px;
+}
+
+.default {
+    padding: 10px;
+    margin: 10px;
+}
+
