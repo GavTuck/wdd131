@@ -1,8 +1,8 @@
 h1{font-family: 'Times New Roman', Times, serif;
    /* align-items: center; */
-   letter-spacing: 2px;
+   /* letter-spacing: 2px;
    text-transform: capitalize;
-   font-size: 50px;
+   font-size: 50px; */
 
 }
 
@@ -24,8 +24,8 @@ h3 {font-family: 'Times New Roman', Times, serif;
     margin: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 25%;
+    padding-right: 25%;
     line-height: 1.5em;
 }
 
