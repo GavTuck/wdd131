@@ -52,3 +52,18 @@ header{
 .special{
     font-style: italic;
 }
+
+.dark{
+    background-color: #333;
+    color: white;
+    border-color: white;
+    
+}
+
+.dark h3{
+    color: rgb(52, 106, 224)
+}
+
+.dark .content{
+    border: solid 1px white;
+}
