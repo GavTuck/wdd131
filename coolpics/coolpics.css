@@ -54,7 +54,8 @@ nav a{
     display: block;
     color: white;
     justify-content: space-around;
-   padding: 10px;
+    padding: 10px;
+
 }
 
 img {
@@ -98,6 +99,7 @@ img {
         flex-direction: row;
         justify-content: space-around;
         margin: 0 auto;
+        display: flex;
     }
   }
 
@@ -113,6 +115,7 @@ img {
     .gallery {
       grid-template-columns: 1fr 1fr 1fr;
     }
+    
     
 
 }
