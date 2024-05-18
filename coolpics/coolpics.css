@@ -3,23 +3,10 @@
 body{
     font-family: 'Mooli','Arial','Helvetica', 'sans-serif';
     margin: 0;
-    
-}
-
-header, main, footer {
-    /* max-width: 640px;
-
-    min-width: 250px; */
-    
-    
     text-align: center;
-
-
-
-    
-
     
 }
+
 
 main h1{
     margin: 0 auto;
@@ -58,12 +45,13 @@ nav a{
 
 }
 
-img {
+figure img {
 	max-width: 100%;
     width: 200px;
     height: 200px;
     object-fit: cover;
     border: white solid 10px;
+    box-shadow: 10px 10px 10px 0px;
 }
 
 .gallery {
@@ -72,19 +60,47 @@ img {
    
 
 }
+button:hover{
+    color: yellowgreen;
+}
+
 button{
     background-color: transparent;
     border: none;
     color: white;
     font-size: 1.6rem;
+
    
 }
 
-img {
-    width: 200px;
-    height: 200px;
-    box-shadow: 10px 10px 10px 0px;
+.viewer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
     
+    
+    
+
+
+}
+.close-viewer{
+    font-size: 2rem;
+    cursor: pointer;
+    vertical-align: top;
+    margin: 75px auto;
+
+}
+
+.viewer img{
+    display: inline;
+    width: 60%;
+    margin: 75px auto;
+    /* object-fit: contain; */
+   
 }
 
 
@@ -92,7 +108,7 @@ img {
     .gallery {
       grid-template-columns: 1fr 1fr;
     }
-    button{
+    .header button{
         display: none;
     }
     nav{
@@ -101,6 +117,7 @@ img {
         margin: 0 auto;
         display: flex;
     }
+
   }
 
 
