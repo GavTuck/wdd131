@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding : 0px;
+}
+
+header{
+    font-family: Arial ,Impact, serif;
+    text-align: center;
+}
+.borders{
+    border-top: #e7e709 2px solid;
+    border-bottom: #e7e709 2px solid;
+}
+header h1{
+    padding: 20px;
+    font-family: 'Lora', Impact, serif;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-right: 40px;
+    padding:20px 0px;
+}
+header a{
+    text-decoration: none;
+    color : #AF1B3F;
+    font-size: 18px;
+}
+.left{
+    text-align: right;
+    margin: 20px;
+    border-right: #e7e709 2px solid;
+    padding-right:  20px;
+}
+.bookstuff h2{
+    color: #AF1B3F;
+    font-family: 'Lora', Impact, serif;
+    
+}
+.bookstuff{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   
+}
+main{
+  
+   display: grid;
+   grid-template-columns: 2fr 1fr ;
+}
+.side{
+    border: #e7e709 2px solid;
+    margin: 20px 40px;
+    padding: 10px;
+}
+
+
+.middle{
+   margin: 20px; 
+}
+.middle img{
+    display : block;
+    margin: 0 auto;
+   
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap');
+
+body{
+    font-family: 'Playwrite AU VIC','Arial','Helvetica', 'sans-serif';
+   
+}
+ul{
+    list-style-type: none;
+}
+/* img {
+	max-width: 100%;
+} */
+
+
+/* Header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    
+}
+header h1{
+    font-size: 50px;
+}
+header img{
+    width: 100px;
+}
+.search-bar img{
+    width: 20px;
+}
+.search-bar{
+    display: flex;
+    width: 100%;
+    justify-content: center;}
+
+    .search-bar input{
+    width: 90%;
+}
+/* desert */
+.recipe{
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 40px;
+   
+    
+    align-items: left;
+    /* font-size: 50px; */
+    
+}
+.recipe img{
+    width: 100%;
+    flex-direction: row-reverse;
+   
+    
+}
+.recipe li{
+    
+    border: 2px solid black;
+   
+    
+    padding: 10px;
+    margin: 5px;
+    
+    /* font-size: 30px; */
+    }
+.tags{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: left;
+    padding: 0px;
+}
+
+.recipe-info h3 , .recipe-info p{
+margin: 5px 0px;
+
+}
+.recipe-info h3{
+    color: aqua;
+}
+
+.recipe-info p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+footer a{
+    
+    text-decoration: none;
+    color: aqua;
+    
+}
+footer img{
+   
+    width: 50px;
+    
+    
+    
+}
+
+
+@media screen and (min-width: 560px ) {
+    .recipe{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .reciepe img{
+        width: 100%;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 40px;
+    }
+}
+
+@media screen and (min-width: 1000px ) {
+   
+    body{
+        margin: 0px 125px;
+    }
+        
+}
