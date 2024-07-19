@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap');
+
+.logo {
+  text-align: center;
+  display: block; /* Makes the image a block element */
+  margin: 0 auto;
+}
+nav {
+    background-color:  #E0EEEE;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+nav {
+    list-style-type: none;
+    display: flex;
+  }
+nav a {
+    padding: 1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  }
+nav a:link,
+nav a:visited {
+    color:  #1256A3;
+  }
+nav a:hover {
+    color: white;
+    background-color: #1256A3;
+  }
+ h2,h3 {
+  /* display: flex; */
+  text-align: center;
+  font-family: "Bebas Neue", Helvetica, sans-serif;
+}
+p {
+  text-align: center;
+  font-family: "Inter", Helvetica, sans-serif;
+}
+.insert img{
+  width: 80%;
+ margin: 0 auto;
+ display: block;
+ justify-content: center;
+ align-items: right;
+ /* align-items: center; */
+}
+div {
+  margin: 0.5em 0;
+ 
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  
+}
+.insert{
+  
+}
+.yearbookmoment{
+  border: 2px solid black;
+  /* border-width: 5px; */
+  margin: 5% 10%;
+}
+
+/* Page 2 */
+#myForm{
+  margin : 200px auto;
+  padding: 20px;
+  width: fit-content;
+  text-align: center;
+  border: 2px solid black;
+  display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#myForm div {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 10px 10px;
+  font-family: "Inter", Helvetica, sans-serif;
+}
+#myForm h1{
+  font-family: "Bebas Neue", Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 750px) {
+  .insert{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+}

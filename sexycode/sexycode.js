@@ -33,5 +33,18 @@ const person2 = {
     married: married2
 };
 
-const article = document.createElement('article');
-const 
+// const article = document.createElement('article');
+// const 
+
+let myObject = {
+    'firstName': 'Sally',
+    'lastName': 'Smith',
+    'iNumber': '123456789',
+    'age': 21,
+    'gender': 'female',
+    'height': 5.9,
+    'married': false
+}
+
+localStorage.setItem('mystuff',myObject);
+console.log(localStorage);
